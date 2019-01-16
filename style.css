@@ -1,4 +1,78 @@
-body{
-    background:red;
+.container{
+    display:flex;
+    flex-direction: column;
+    background-color:slategrey;
+    justify-content: center;
+    padding: 30px;
 }
+
+.item1{
+    background-color: brown;
+    text-align:center;
+    height: 50%;
+}
+.item2{
+    background-color: burlywood;
+    text-align:center;
+    height: 50%;
+}
+
+.body{
+    background-color:slateblue;
+    background-position: right;
+    background-image: url("images/image1.jpg")
+}
+
+a{
+    color: aliceblue;
+}
+.logo{
+    background-image:url("teencode-logo.png")
+}
+.nav{
+    float: right;
+}
+.taskbar{
+    background-color: crimson;
+}
+.p{
+    font-style: oblique;
+    font-size: 50px;
+    color: salmon;
+    text-align: center;
+}
+.h{
+    color: whitesmoke;
+    font-style: italic;
+}
+.ol{
+    font-size: 30px;
+    color: beige;
+}
+.ul{
+    font-size: 30px;
+    color: beige;
+}
+#rect{
+    animation-name: rainbow;
+    animation-duration: 5s;
+}
+@keyframes rainbow{
+    100%{color:red;
+    }
+    50%{color:burlywood;
+    }
+    80%{color:green;
+    }
+}
+.rect{
+    animation-name: colourful;
+    animation-duration: 10s;
+}
+@keyframes colourful{
+    50%{color: tomato;}
+    50%{color: yellowgreen;}
+    50%{color: blueviolet;}
+}
+
 

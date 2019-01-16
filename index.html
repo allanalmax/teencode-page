@@ -3,74 +3,67 @@
 
     <head>
             <title>Teen Code</title>
-            <style>
-            .body{
-                background-color: bisque;
-                background-image:url("images/image1.jpg")
-            }
-            .nav{
-                float: right;
-            }
-            .header{
-                background-color:brown;
-                padding: 20px;
-                height: 20px;
-                font-family:cursive;
-                font-size: 30px;
-                color: white;
-            }
-            .p{
-                font-style: oblique;
-                font-size:30;
-                color: blue;
-            }
-            .h{
-                color: black;
-                font-style: italic;
-            }
-            .ol{
-                font-size: 30px;
-            }
-            .ul{
-                font-size: 30px;
-            }
-            #rect{
-                animation-name: rainbow;
-                animation-duration: 10s;
-            }
-            @keyframes rainbow{
-                100%{background-color:red;
-                }
-                50%{background-color:burlywood;
-                }
-                80%{background-color:green;
-                }
-            }
-            
-            </style>
+          <link rel="stylesheet" href="style.css">
 
     </head>
-    <header class="header">Teen code</header>
-<body class="body">
-    <div class="nav">
-    <a href>Home</a>
-    <a href>About</a>
-    <a href>Curriculum</a>
-    <a href>Contact us</a>
+    <div class="container">
+
+                <div class="taskbar">
+                        <img class="logo" src="images/teencode-logo.png" 
+                        alt="logo">
+                        <div class="nav">
+                                    <a href>Home</a>
+                                    <a href>About</a>
+                                    <a href>Curriculum</a>
+                                    <a href>Contact us</a> 
+                        </div>              
+                </div>
+            <div class="body">
+                        <p class="p" id="rect">#Bandits</p>
+            </div>
+            
+                <div class="ol item1 rect">
+                
+                        <ol >Group members.</ol>
+                        <li>Kimuri Vianey</li>
+                        <li>Soggah Enoch</li>
+                        <li>Nambooze Betty</li>
+                </div>
+            <div class="ul item2 rect">
+            
+                    <ul>Facilitators</ul>
+                    <li>John Paul</li>
+                    <li>Kakaire Emmanuel</li>
+            </div>
+    </div>
+        <div class="body"></div>
+
+    <div>
+            <img class="logo" src="images/teencode-logo.png" 
+            alt="logo">
+            <div class="nav">
+                        <a href>Home</a>
+                        <a href>About</a>
+                        <a href>Curriculum</a>
+                        <a href>Contact us</a> 
+            </div>              
     </div>
 
-    <h3>Group name.</h3>
+    <p class="p">#Bandits</p>
 
-    <p class="p" id="rect">#Bandits</p>
+    <div class="ol">
+    
+            <ol >Group members.</ol>
+            <li>Kimuri Vianey</li>
+            <li>Soggah Enoch</li>
+            <li>Nambooze Betty</li>
+    </div>
+<div class="ul">
 
-    <ol class="ol">Group members.</ol>
-    <li>Kimuri Vianey</li>
-    <li>Soggah Enoch</li>
-    <li>Nambooze Betty</li>
-
-    <ul class="ul">Facilitators</ul>
-    <li>John Paul</li>
-    <li>Kakaire Emmanuel</li>
+        <ul>Facilitators</ul>
+        <li>John Paul</li>
+        <li>Kakaire Emmanuel</li>
+</div>
 </body>
 
 </html>
