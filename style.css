@@ -1,104 +1,38 @@
-.container{
-    display:flex;
-    flex-direction: column;
-    background-color:slategrey;
-    justify-content: center;
-    padding: 30px;
-    width: 100%;
-    height: 100%;
-}
-
-.item1{
-    background-color: brown;
-    /* text-align:center; */
-    height: 50%;
-}
-.item2{
-    background-color: burlywood;
-    text-align:center;
-    height: 50%;
-    width: 50px;
-}
-.item-box{
-    width:200px;
-    border:solid 1px #ffffff;
-    margin-right: 18px;
-    padding:10px;
-    margin-top:40px;
-    font-size: 40px;
-    float:left;
-    margin-bottom: 50px;
-}
-.item-box-first{
-    margin-left:25px;
-}
-.item-box p{
-    font-size: 15px;
-}
-.item-box h4{
-   margin: 0px !important;
-   font-size: 18px;
-}
-.body{
-    background-color:slateblue;
-    background-position: right;
-    background-image: url("images/image1.jpg")
-}
-
-a{
-    color: aliceblue;
-}
-.logo{
-    background-image:url("teencode-logo.png")
+.bar{
+    background-color: black;
 }
 .nav{
     float: right;
-    padding: 15px;
+    font-size: 20px;
+    padding: 20px;
 }
-.nav a{
-    margin-right: 20px;
+.link{
+    margin-right: 10px;
+    color: aliceblue;
 }
-.taskbar{
-    background-color: crimson;
-}
-.p{
-    font-style: oblique;
-    font-size: 50px;
-    color: salmon;
+.header{
+    background-color: brown;
+    padding: 10px;
     text-align: center;
 }
-.h{
-    color: whitesmoke;
-    font-style: italic;
+.section1{
+    background-color: blue; 
+    padding: 10px;
+    display: inline-block;
 }
-.ol{
-    font-size: 30px;
-    color: beige;
+.item{
+    border: solid 2px;
+    margin: 10px;
+    width: 25%;
+    border-color: darkgoldenrod;
 }
-.ul{
-    font-size: 30px;
-    color: beige;
+.content{
+    font-size: 15px;
+    color: yellow;
 }
-#rect{
-    animation-name: rainbow;
-    animation-duration: 5s;
+.headings{
+    color: aliceblue;
 }
-@keyframes rainbow{
-    100%{color:red;
-    }
-    50%{color:burlywood;
-    }
-    80%{color:green;
-    }
+.sub-item{
+    float: left;
 }
-.rect{
-    animation-name: colourful;
-    animation-duration: 10s;
-}
-@keyframes colourful{
-    50%{color: tomato;}
-    50%{color: yellowgreen;}
-    50%{color: blueviolet;}
-}
-
-
